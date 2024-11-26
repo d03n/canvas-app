@@ -27,6 +27,7 @@ const Konva = () => {
       })
     );
   };
+  
   const handleDragEnd = (e) => {
     setStars(
       stars.map((star) => {
